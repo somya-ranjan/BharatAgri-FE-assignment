@@ -1,0 +1,11 @@
+.cp {
+  cursor: pointer;
+}
+.img_fluid {
+  width: 100%;
+  height: auto;
+}
+.hide_img_bg {
+  mix-blend-mode: multiply;
+  filter: contrast(1);
+}

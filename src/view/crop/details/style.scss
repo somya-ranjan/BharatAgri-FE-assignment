@@ -1,0 +1,33 @@
+.crop_modal_img {
+  min-height: 500px;
+  max-height: 500px;
+  width: 100%;
+}
+
+@media (min-width: 852px) and (max-width: 1280px) {
+  .crop_modal_img {
+    min-height: 400px;
+    max-height: 400px;
+  }
+}
+
+@media (min-width: 621px) and (max-width: 852px) {
+  .crop_modal_img {
+    min-height: 350px;
+    max-height: 350px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 620px) {
+  .crop_modal_img {
+    min-height: 270px;
+    max-height: 270px;
+  }
+}
+
+@media (max-width: 320px) {
+  .crop_modal_img {
+    max-height: 200px;
+    min-height: 200px;
+  }
+}

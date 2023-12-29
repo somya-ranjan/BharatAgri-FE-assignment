@@ -1,0 +1,45 @@
+.crop_list_container {
+  img {
+    min-height: 250px;
+    max-height: 250px;
+    cursor: pointer;
+    transition: all ease-in-out 0.4s;
+  }
+  &:hover {
+    box-shadow: 1px 8px 20px grey;
+    -webkit-transition: box-shadow 0.4s ease-in;
+    img {
+      scale: 1.1;
+    }
+  }
+}
+
+// @media (min-width: 1025px) and (max-width: 1280px) {
+
+// }
+
+// @media (min-width: 767px) and (max-width: 1024px) {
+
+// }
+
+// @media (min-width: 481px) and (max-width: 767px) {
+
+// }
+
+@media (min-width: 321px) and (max-width: 480px) {
+  .crop_list_container {
+    img {
+      min-height: 200px;
+      max-height: 200px;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .crop_list_container {
+    img {
+      min-height: 180px;
+      max-height: 200px;
+    }
+  }
+}
