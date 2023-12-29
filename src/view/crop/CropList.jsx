@@ -66,7 +66,7 @@ function CropList() {
               borderRadius: "20px",
               width: { xs: "100%", sm: "70%", md: "60%", lg: "50%", xl: "40%" },
             }}
-            placeholder="Search..."
+            placeholder="Search by crops name..."
             onChange={(e) => setSearchValue(e.target.value)}
             value={searchValue}
             endAdornment={
